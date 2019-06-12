@@ -105,7 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8cc1f9165b620a4f812323687216a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 0.74
+  mymenu: {fileID: 9051203709185312593, guid: 04012e0a97f52054eb84a797c72f7739, type: 3}
+  thrust: 1
   rb: {fileID: 1566582935424342324}
 --- !u!54 &1566582935424342324
 Rigidbody:

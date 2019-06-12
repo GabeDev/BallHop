@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyScript : MonoBehaviour
 {
     public float thrust;
@@ -16,4 +17,5 @@ public class EnemyScript : MonoBehaviour
     {
          rb.AddForce(0, 0, -thrust, ForceMode.Impulse);
     }
+  
 }
